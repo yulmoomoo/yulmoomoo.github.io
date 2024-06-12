@@ -4,51 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>개인 프로필</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+        }
+        div.container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 50px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        p {
+            margin: 5px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1><mark>개인 프로필</mark></h1>
-    
-    <!-- 이름 (한글, 영문) -->
-    <div>
-        <h2>이름</h2>
-        <p>송채영(Song Chae Yeong)</p>
-    </div>
-    
-    <!-- 이메일주소 (학교메일) -->
-    <div>
-        <h2>이메일주소</h2>
-        <p><a href="thdcodud702@dongyang.ac.kr">thdcodud702@dongyang.ac.kr</p>
-    </div>
-    
-    <!-- 기술스택 (다룰 수 있는 언어, 도구 등 작성) -->
-    <div>
-        <h2>기술스택</h2>
-       없음
-    </div>
-    
-    <!-- 대학정보 (학교 및 학과, 입학년도 작성) -->
-    <div>
-        <h2>대학정보</h2>
-        <p>동양미래대학교 컴퓨터소프트웨어학과 2024년 입학</p>
-    </div>
-    
-    <!-- 기술개발 경험 (진행중인 수업 관련내용, 고등학교 때 학습했던 내용) -->
-    <div>
-        <h2>기술개발 경험</h2>
-        <p>웹 개발 프로젝트를 진행 중입니다.</p>
-    </div>
-    
-    <!-- 관심 기술분야 (서비스, 기술명 등) -->
-    <div>
-        <h2>관심 기술분야</h2>
-        <p>인공지능, 웹페이지</p>
-    </div>
-    
-    <!-- 기타 포함하고 싶은 항목 (사진 등) -->
-    <div>
-        <h2>기타</h2>
-<img src="https://i.namu.wiki/i/9oIWpZPO2EO2pbE2nSwMocGV3RxiATFh07TDx7bZb6I3myioDNSk2GOzOjx8KgHhplg9-6d5zs_1NgRgUkb3jA.webp">
-침착맨 좋아합니다..     <!-- 여기에 사진 등의 추가 정보를 넣을 수 있습니다. -->
+    <div class="container">
+        <div>
+            <h2>이름</h2>
+            <p>송채영(Song Chae Yeong)</p>
+        </div>
+        <div>
+            <h2>이메일주소</h2>
+            <p><a href="mailto:thdcodud702@dongyang.ac.kr">thdcodud702@dongyang.ac.kr</a></p>
+        </div>
+        <div>
+            <h2>기술스택</h2>
+            <p>없음</p>
+        </div>
+        <div>
+            <h2>대학정보</h2>
+            <p>동양미래대학교 컴퓨터소프트웨어학과 2024년 입학</p>
+        </div>
+        <div>
+            <h2>기술개발 경험</h2>
+            <p>웹 개발 프로젝트를 진행 중입니다.</p>
+        </div>
+        <div>
+            <h2>관심 기술분야</h2>
+            <p>인공지능, 웹페이지</p>
+        </div>
+        <div>
+            <h2>기타</h2>
+            <p>침착맨 좋아합니다.</p>
+            <img src="https://i.namu.wiki/i/9oIWpZPO2EO2pbE2nSwMocGV3RxiATFh07TDx7bZb6I3myioDNSk2GOzOjx8KgHhplg9-6d5zs_1NgRgUkb3jA.webp" alt="침착맨 사진">
+        </div>
     </div>
 </body>
 </html>
